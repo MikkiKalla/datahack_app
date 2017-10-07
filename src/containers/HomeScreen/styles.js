@@ -13,6 +13,7 @@ export default StyleSheet.create({
     marginLeft: 22,
   },
   bground: {
+    flex:1,
     position: "absolute",
     left: -50,
     top: -300,
@@ -28,5 +29,13 @@ export default StyleSheet.create({
     zIndex: 2,
     left: 185,
     top: 120
+  },
+  buttons: {
+    top: 240
+  },
+  btn: {
+    left: 20,
+    fontSize:16,
+    fontWeight: 'bold'
   }
 });

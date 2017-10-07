@@ -21,6 +21,9 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "rnpm": {
+    "assets": ["./public/assets/fonts/Lato-Regular.ttf", "./public/assets/fonts/Lato-Bold.ttf"]
+  },
   "dependencies": {
     "expo": "^21.0.0",
     "react": "16.0.0-alpha.12",
@@ -32,12 +35,5 @@
     "react-navigation": "^1.0.0-beta.13",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
-  },
-  "description": "App created at the Reykjavik Datahack Hackathon",
-  "repository": {
-    "type": "git",
-    "url": "git"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }

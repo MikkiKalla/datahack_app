@@ -4,7 +4,7 @@ import { View, ScrollView, Text, StyleSheet, StatusBar, TouchableOpacity, Image 
 import styles from './styles';
 
 
-export default class HomeScreenContainer extends Component {
+export default class UserVaccinations extends Component {
   static navigationOptions = {
     headerStyle: {
     backgroundColor: 'red',
@@ -19,12 +19,7 @@ export default class HomeScreenContainer extends Component {
           backgroundColor="blue"
           barStyle="dark-content"
         />
-        <View style={styles.bground}></View>
-        <Image style={styles.profileImage} source={require('../../assets/images/joshua.jpg')} />
-        <View style={styles.buttons}>
-        <TouchableOpacity onPress={() => navigate('UserVaccinations')}>
-          <Text style={styles.btn}>My Vaccinations</Text>
-        </TouchableOpacity>
+        <View style={styles.bground}>
         </View>
       </ScrollView>
     );
