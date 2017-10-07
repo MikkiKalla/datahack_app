@@ -6,12 +6,12 @@ import { connect } from 'react-redux';
 import BottomMenu from './components/BottomMenu'
 import NavigationContainer from './containers/NavigationContainer';
 
-import { fetchVerseByCat, fetchVerses } from './actions/verse'
+//import { fetchSomething } from './actions/something'
 
 export class AppWithNavigationState extends Component {
   componentDidMount() {
     const { dispatch } = this.props
-    dispatch(fetchVerses())
+    //dispatch(fetchSomething())
   }
   render() {
     const { dispatch, navigation } = this.props;
@@ -19,7 +19,6 @@ export class AppWithNavigationState extends Component {
     return (
       <View style={{flex: 1}}>
         <NavigationContainer navigation={addNavigationHelpers({ dispatch, state: navigation })} />
-        <BottomMenu navigation={addNavigationHelpers({ dispatch, state: navigation })}  />
       </View>
     );
   }

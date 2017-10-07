@@ -6,14 +6,15 @@ import styles from './styles';
 
 export default class HomeScreenContainer extends Component {
   static navigationOptions = {
-    title: 'Ferskeytla',
+    title: 'Vacc Sack',
   }
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <View style={styles.container}>
-        <Text>Hello World</Text>
-      </View>
+      <ScrollView style={styles.container}>
+        <View style={styles.bground}>
+        </View>
+      </ScrollView>
     );
   }
 }

@@ -11,5 +11,9 @@ export default StyleSheet.create({
     flex: 6,
     fontSize: 20,
     marginLeft: 22,
+  },
+  bground: {
+    borderRadius: 50,
+    backgroundColor: '#000'
   }
 });
