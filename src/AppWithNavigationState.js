@@ -46,7 +46,7 @@ export class AppWithNavigationState extends Component {
 
     return (
       <View style={{flex: 1}}>
-        <MyStatusBar backgroundColor="#5E8D48" barStyle="light-content" />
+        <MyStatusBar backgroundColor="red" barStyle="light-content" />
         <NavigationContainer navigation={addNavigationHelpers({ dispatch, state: navigation })} />
       </View>
     );
