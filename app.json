@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Vacc Sack",
+    "version": "0.0.1",
+    "slug": "vaccsack",
+    "sdkVersion": "21.0.0",
+    "privacy": "public",
+    "icon": "./public/assets/icons/icon.png",
+    "ios": {
+      "bundleIdentifier": "is.vaccsack.vefskolinn"
+    },
+    "android": {
+      "package": "is.vaccsack.vefskolinn",
+      "icon": "./public/assets/icons/icon.png",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}

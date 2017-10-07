@@ -1,0 +1,5 @@
+.DS_Store
+apk/
+node_modules/
+.expo/
+npm-debug.*
